@@ -36,10 +36,40 @@ header, section, footer{
     border-bottom:1px dashed black;
 }
 /* header */
+header{
+    position:absolute;
+    z-index:999;
+}
+.header-container{
+    width:100%;
+    max-width:1440px;
+    margin:auto;
+}
+/* 모바일 헤더 */
+.m-header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+}
+
+/* 데스크탑 헤더 */
+.desk-header{
+    display:none;
+}
+
+/* ******************************************** */
 
 /* 콘텐츠 본문 */
 
+
+/* ******************************************** */
+
 /* footer */
+
+
+/* ******************************************** */
 
 /* ~ 639px까지의 css */
 @media screen and (min-width:640px){
