@@ -36,74 +36,37 @@ header, section, footer{
     border-bottom:1px dashed black;
 }
 /* header */
+header{
+    position:absolute;
+    z-index:999;
+}
+.header-container{
+    width:100%;
+    max-width:1440px;
+    margin:auto;
+}
+/* 모바일 헤더 */
+.m-header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+}
+
+/* 데스크탑 헤더 */
+.desk-header{
+    display:none;
+}
+
+/* ******************************************** */
 
 /* 콘텐츠 본문 */
-.contents1{
-    width:100%;
-    position:relative;
-    /* background-color: rgb(149, 220, 239); */
-}
-/* 좌우 슬라이드 */
-.slider-wrap{
-    width:100%;
-    /* max-width:1440px; */
-    margin:auto;
-    position:relative;
-}
-.slider-container{
-    width:100%;
-    position:relative;
-}
-.slides{
-    width:100%;
-    position:relative;
-}
-.slide{
-    width:100%;
-    position:relative;
-}
-.slide picture{
-    display:inline-block;
-    width: 100%;
-}
-.slide img{
-    width:100%;
-}
-.slide-text{
-    position:absolute;
-    width:50%;
-    max-width:500px;
-    background-color:rgba(255,255,255,0.5);
-    top:50%;
-    right:2%;
-    transform:translate(0, -40%);
-    padding:5% 15px;
-    font-size:5vw;
-    color:rgb(8, 78, 8);
-    font-weight:500;
-}
-.slide-text p:first-child{
-    font-size:0.8em;
-    font-weight:bold;
-}
-.slide-text p:nth-child(2){
-    font-weight:600
-}
-.color1{
-    font-size:1.3em;
-}
-.slide-text p:nth-child(3){
-    font-weight: 600;
-}
-.color2{
-    color:purple;
-    font-size:1.3em
-}
-.color3{
-    font-size:1.3em;
-    font-weight: bold;
-}
+
 /* footer */
+
+
+/* ******************************************** */
 
 /* ~ 639px까지의 css */
 @media screen and (min-width:640px){
