@@ -51,12 +51,18 @@ header{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding:20px;
+    padding:0;
 }
 
 /* 데스크탑 헤더 */
 .desk-header{
     display:none;
+}
+.logo{
+    width:150px;
+    height:70px;
+    border:1px solid black;
+    margin:auto;
 }
 
 /* ******************************************** */
