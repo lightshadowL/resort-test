@@ -64,6 +64,9 @@ header{
     border:1px solid black;
     margin:auto;
 }
+.logo img{
+    width:100%;
+}
 
 /* ******************************************** */
 
